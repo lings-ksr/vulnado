@@ -2,8 +2,7 @@
 name: Shiftleft Scan
 on:
   pull_request:
-    branches:
-    - master
+    branches: [ "master", "Demo", "QA" ]
   workflow_dispatch:
     inputs:
       logLevel:
